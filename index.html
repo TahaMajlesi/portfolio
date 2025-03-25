@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./src/output.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body>
@@ -18,7 +19,7 @@
             border-[1px]  border-gray-800 bg-[#212124] top-4 sticky transition-all duration-300" id="navBar">
                 <ul class="w-full flex justify-around">
                     <li class="font-mono text-white tracking-wide ">
-                        <a href="#!">About</a>
+                        <button class="goAbout">About</button>
                     </li>
                     <li class="font-mono text-white tracking-wide ">
                         <a href="#!">Articles</a>
@@ -29,7 +30,7 @@
                 </ul>
             </div>
             <!-- Header Desktop -->
-            <div class="w-10/12 mx-auto flex flex-col mt-24">
+            <div class="w-10/12 mx-auto flex flex-col mt-24" id="AboutSection">
                 <!-- Name and Job -->
                 <p class="text-4xl font-mono text-white tracking-wide font-semibold">Taha Majlesi Pour / Front End Developer
                 </p>
@@ -105,25 +106,26 @@
             <div class="w-full border-t-[1px] border-gray-800 mt-24 flex font-mono p-8 justify-around">
                 <ul class="w-3/12 flex justify-around">
                     <li class="text-white">
-                        <a href="#!">About</a>
+                        <button class="goAbout" ">About</button>
                     </li>
-                    <li class="text-white">
-                        <a href="#!">Articles</a>
+                    <li class=" text-white ">
+                            <a href=" #! ">Articles</a>
                     </li>
-                    <li class="text-white">
-                        <a href="#!">Projects</a>
+                    <li class=" text-white ">
+                        <a href=" #! ">Projects</a>
                     </li>
                 </ul>
-                <p class="text-gray-300">&copy; 2025 Taha Majlesi Pour. A few rights reserved.</p>
+                <p class=" text-gray-300 ">&copy; 2025 Taha Majlesi Pour. A few rights reserved.</p>
             </div>
 
         </div>
     </div>
 
     <!-- Scripts -->
-    <script src="./Js/Nav.js"></script>
-    <script src="./Js/LastArticles.js"></script>
-    <script src="./Js/LastProjects.js"></script>
+    <script src=" ./Js/Nav.js "></script>
+    <script src=" ./Js/LastArticles.js "></script>
+    <script src=" ./Js/LastProjects.js "></script>
+    <script src=" ./Js/links.js "></script>
 </body>
 
 </html>

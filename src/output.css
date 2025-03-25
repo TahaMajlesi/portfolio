@@ -199,6 +199,12 @@
   .absolute {
     position: absolute;
   }
+  .fixed {
+    position: fixed;
+  }
+  .relative {
+    position: relative;
+  }
   .sticky {
     position: sticky;
   }
@@ -207,6 +213,9 @@
   }
   .top-4 {
     top: calc(var(--spacing) * 4);
+  }
+  .bottom-0 {
+    bottom: calc(var(--spacing) * 0);
   }
   .z-50 {
     z-index: 50;
@@ -223,8 +232,14 @@
   .my-3 {
     margin-block: calc(var(--spacing) * 3);
   }
+  .my-4 {
+    margin-block: calc(var(--spacing) * 4);
+  }
   .my-10 {
     margin-block: calc(var(--spacing) * 10);
+  }
+  .mt-1 {
+    margin-top: calc(var(--spacing) * 1);
   }
   .mt-2 {
     margin-top: calc(var(--spacing) * 2);
@@ -237,6 +252,9 @@
   }
   .mt-24 {
     margin-top: calc(var(--spacing) * 24);
+  }
+  .mt-auto {
+    margin-top: auto;
   }
   .flex {
     display: flex;
@@ -343,6 +361,9 @@
   .justify-center {
     justify-content: center;
   }
+  .justify-evenly {
+    justify-content: space-evenly;
+  }
   .gap-3 {
     gap: calc(var(--spacing) * 3);
   }
@@ -396,6 +417,9 @@
   }
   .gap-y-52 {
     row-gap: calc(var(--spacing) * 52);
+  }
+  .justify-self-end {
+    justify-self: flex-end;
   }
   .rounded-2xl {
     border-radius: var(--radius-2xl);
@@ -596,6 +620,12 @@
   .tracking-wider {
     --tw-tracking: var(--tracking-wider);
     letter-spacing: var(--tracking-wider);
+  }
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-pretty {
+    text-wrap: pretty;
   }
   .text-wrap {
     text-wrap: wrap;

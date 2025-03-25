@@ -1,34 +1,23 @@
 [{
         "id": 0,
-        "title": "Project 1",
-        "description": "Description of Project 1",
-
-        "icon": "adventure.jpg",
-        "alt": "img",
-        "link": "Example.com"
+        "title": "Online Shop",
+        "description": "a demonstration e-commerce platform showcasing online shopping functionality.",
+        "icon": "fa-brands fa-github",
+        "link": "https://tahamajlesi.github.io/OnlineShop/"
     },
     {
         "id": 1,
-        "title": "Project 2",
-        "description": "Description of Project 3",
-        "icon": "adventure.jpg",
-        "alt": "img",
-        "link": "Example.com"
+        "title": "School Tracker",
+        "description": "a platform for tracking student progress and homework.",
+        "icon": "fa-brands fa-github",
+        "link": "https://tahamajlesi.github.io/SchoolTracker/"
     },
     {
         "id": 3,
-        "title": "Project 3",
-        "description": "Description of Project 3",
-        "icon": "adventure.jpg",
-        "alt": "img",
-        "link": "Example.com"
-    },
-    {
-        "id": 4,
-        "title": "Project 4",
-        "description": "Description of Project 4",
-        "icon": "adventure.jpg",
-        "alt": "img",
-        "link": "Example.com"
+        "title": "arabiolga-psy",
+        "description": "a platform offering psychological services and resources .",
+        "icon": "fa-solid fa-globe",
+
+        "link": "https://arabiolga-psy.com"
     }
 ]
