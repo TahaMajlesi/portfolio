@@ -229,6 +229,9 @@
   .table {
     display: table;
   }
+  .h-60 {
+    height: calc(var(--spacing) * 60);
+  }
   .w-2 {
     width: calc(var(--spacing) * 2);
   }
@@ -514,6 +517,16 @@
   .lg\:flex-row {
     @media (width >= 64rem) {
       flex-direction: row;
+    }
+  }
+  .lg\:\!flex-wrap {
+    @media (width >= 64rem) {
+      flex-wrap: wrap !important;
+    }
+  }
+  .lg\:flex-wrap {
+    @media (width >= 64rem) {
+      flex-wrap: wrap;
     }
   }
   .lg\:justify-around {
