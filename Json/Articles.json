@@ -1,0 +1,97 @@
+[{
+        "id": 0,
+        "title": "Article 1",
+        "description": "Description of article 1",
+        "content": [{
+                "header": "Header 1",
+                "text": "Text 1"
+            },
+            {
+                "header": "Header 2",
+                "text": "Text 2"
+            },
+            {
+                "header": "Header 3",
+                "text": "Text 3"
+            },
+            {
+                "header": "Header 4",
+                "text": "Text 4"
+            }
+        ],
+        "publishDate": "2018-01-01",
+        "image": "adventure.jpg"
+    },
+    {
+        "id": 1,
+        "title": "Article 2",
+        "description": "Description of article 1",
+        "content": [{
+                "header": "Header 1",
+                "text": "Text 1"
+            },
+            {
+                "header": "Header 2",
+                "text": "Text 2"
+            },
+            {
+                "header": "Header 3",
+                "text": "Text 3"
+            },
+            {
+                "header": "Header 4",
+                "text": "Text 4"
+            }
+        ],
+        "publishDate": "2018-01-01",
+        "image": "adventure.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Article 3",
+        "description": "Description of article 1",
+        "content": [{
+                "header": "Header 1",
+                "text": "Text 1"
+            },
+            {
+                "header": "Header 2",
+                "text": "Text 2"
+            },
+            {
+                "header": "Header 3",
+                "text": "Text 3"
+            },
+            {
+                "header": "Header 4",
+                "text": "Text 4"
+            }
+        ],
+        "publishDate": "2018-01-01",
+        "image": "adventure.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Article 4",
+        "description": "Description of article 1",
+        "content": [{
+                "header": "Header 1",
+                "text": "Text 1"
+            },
+            {
+                "header": "Header 2",
+                "text": "Text 2"
+            },
+            {
+                "header": "Header 3",
+                "text": "Text 3"
+            },
+            {
+                "header": "Header 4",
+                "text": "Text 4"
+            }
+        ],
+        "publishDate": "2018-01-01",
+        "image": "adventure.jpg"
+    }
+]
