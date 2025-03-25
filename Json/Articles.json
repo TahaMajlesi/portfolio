@@ -1,30 +1,30 @@
 [
   {
     "id": 0,
-    "title": "The Ultimate Guide to AI in 2025",
-    "description": "This comprehensive guide explores the types of AI, its applications across various fields, government initiatives, privacy concerns, and how individuals can grow with AI.",
+    "title": "Investment and Crypto",
+    "description": "Cryptocurrency is a digital or virtual currency that uses cryptography for security and operates on a decentralized network called blockchain",
     "publishDate": "March 25, 2025",
-    "fileUrl": "../Articles/The Ultimate Guide to AI in 2025.pdf"
+    "fileUrl": "../Articles/investment and crypto.pdf"
   },
   {
     "id": 1,
-    "title": "Article 2",
-    "description": "Description of article 1",
-    "publishDate": "2018-01-01",
-    "fileUrl": "adventure.jpg"
-  },
-  {
-    "id": 3,
     "title": "Article 3",
     "description": "Description of article 1",
     "publishDate": "2018-01-01",
     "fileUrl": "adventure.jpg"
   },
   {
-    "id": 4,
+    "id": 2,
     "title": "Article 4",
     "description": "Description of article 1",
     "publishDate": "2018-01-01",
     "fileUrl": "adventure.jpg"
+  },
+  {
+    "id": 3,
+    "title": "The Ultimate Guide to AI in 2025",
+    "description": "This comprehensive guide explores the types of AI, its applications across various fields, government initiatives, privacy concerns, and how individuals can grow with AI.",
+    "publishDate": "March 25, 2025",
+    "fileUrl": "../Articles/The Ultimate Guide to AI in 2025.pdf"
   }
 ]
