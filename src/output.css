@@ -260,6 +260,12 @@
   .w-6\/12 {
     width: calc(6/12 * 100%);
   }
+  .w-7 {
+    width: calc(var(--spacing) * 7);
+  }
+  .w-7\/12 {
+    width: calc(7/12 * 100%);
+  }
   .w-8 {
     width: calc(var(--spacing) * 8);
   }
