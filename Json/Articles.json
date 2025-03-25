@@ -1,27 +1,27 @@
 [
   {
-    "id": 1,
+    "id": 0,
     "title": "Investment and Crypto",
     "description": "Cryptocurrency is a digital or virtual currency that uses cryptography for security and operates on a decentralized network called blockchain.",
     "publishDate": "March 25, 2025",
     "fileUrl": "../Articles/investment and crypto.pdf"
   },
   {
-    "id": 2,
+    "id": 1,
     "title": "Introduction to Front-End Web Development",
     "description": "Welcome to the world of front-end web development, where creativity meets technology to create engaging and interactive user experiences.",
     "publishDate": "March 25, 2025",
     "fileUrl": "../Articles/Introduction to Front-End Web Development.pdf"
   },
   {
-    "id": 3,
+    "id": 2,
     "title": "Why Developers Should Use AI",
     "description": "Artificial Intelligence (AI) is reshaping the software development landscape, offering tools that enhance productivity, streamline workflows, and foster innovation. ",
     "publishDate": "March 25, 2025",
     "fileUrl": "../Articles/Why Developers Should Use AI.pdf"
   },
   {
-    "id": 4,
+    "id": 3,
     "title": "The Ultimate Guide to AI in 2025",
     "description": "This comprehensive guide explores the types of AI, its applications across various fields, government initiatives, privacy concerns, and how individuals can grow with AI.",
     "publishDate": "March 25, 2025",
