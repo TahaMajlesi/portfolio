@@ -8,7 +8,7 @@ fetch("../Json/Articles.json")
       ).innerHTML += `<div class="w-full font-mono tracking-wide flex flex-col"><p class="text-gray-400">| ${data[i].publishDate}</p>
             <p class="text-gray-300 font-semibold my-1 w-10/12">${data[i].title}</p>
             <p class="text-gray-300 w-10/12">${data[i].description}</p>
-            <a href="#!" class="text-blue-600 font-semibold my-1 ">Read article ></a>
+            <a href="${element.fileUrl}" class="text-blue-600 font-semibold my-1" download="${element.title}>Read article ></a>
             </div>`;
     }
   });

@@ -1,97 +1,30 @@
-[{
-        "id": 0,
-        "title": "Article 1",
-        "description": "Description of article 1",
-        "content": [{
-                "header": "Header 1",
-                "text": "Text 1"
-            },
-            {
-                "header": "Header 2",
-                "text": "Text 2"
-            },
-            {
-                "header": "Header 3",
-                "text": "Text 3"
-            },
-            {
-                "header": "Header 4",
-                "text": "Text 4"
-            }
-        ],
-        "publishDate": "2018-01-01",
-        "image": "adventure.jpg"
-    },
-    {
-        "id": 1,
-        "title": "Article 2",
-        "description": "Description of article 1",
-        "content": [{
-                "header": "Header 1",
-                "text": "Text 1"
-            },
-            {
-                "header": "Header 2",
-                "text": "Text 2"
-            },
-            {
-                "header": "Header 3",
-                "text": "Text 3"
-            },
-            {
-                "header": "Header 4",
-                "text": "Text 4"
-            }
-        ],
-        "publishDate": "2018-01-01",
-        "image": "adventure.jpg"
-    },
-    {
-        "id": 3,
-        "title": "Article 3",
-        "description": "Description of article 1",
-        "content": [{
-                "header": "Header 1",
-                "text": "Text 1"
-            },
-            {
-                "header": "Header 2",
-                "text": "Text 2"
-            },
-            {
-                "header": "Header 3",
-                "text": "Text 3"
-            },
-            {
-                "header": "Header 4",
-                "text": "Text 4"
-            }
-        ],
-        "publishDate": "2018-01-01",
-        "image": "adventure.jpg"
-    },
-    {
-        "id": 4,
-        "title": "Article 4",
-        "description": "Description of article 1",
-        "content": [{
-                "header": "Header 1",
-                "text": "Text 1"
-            },
-            {
-                "header": "Header 2",
-                "text": "Text 2"
-            },
-            {
-                "header": "Header 3",
-                "text": "Text 3"
-            },
-            {
-                "header": "Header 4",
-                "text": "Text 4"
-            }
-        ],
-        "publishDate": "2018-01-01",
-        "image": "adventure.jpg"
-    }
+[
+  {
+    "id": 0,
+    "title": "The Ultimate Guide to AI in 2025",
+    "description": "This comprehensive guide explores the types of AI, its applications across various fields, government initiatives, privacy concerns, and how individuals can grow with AI.",
+    "publishDate": "March 25, 2025",
+    "fileUrl": "../Articles/The Ultimate Guide to AI in 2025.pdf"
+  },
+  {
+    "id": 1,
+    "title": "Article 2",
+    "description": "Description of article 1",
+    "publishDate": "2018-01-01",
+    "fileUrl": "adventure.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Article 3",
+    "description": "Description of article 1",
+    "publishDate": "2018-01-01",
+    "fileUrl": "adventure.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Article 4",
+    "description": "Description of article 1",
+    "publishDate": "2018-01-01",
+    "fileUrl": "adventure.jpg"
+  }
 ]
