@@ -6,20 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./src/output.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"
-    />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body>
     <div class="w-full bg-black flex justify-center">
-        <div class="bg-[#18181b] w-8/12 flex border-x-[0.5px] border-gray-800 flex-col">
+        <div class="bg-[#18181b] lg:w-8/12 w-full flex lg:border-x-[0.5px] lg:border-gray-800 flex-col">
             <!-- NavBar Desktop -->
-            <div class="w-3/12 mx-auto p-2 rounded-2xl 
+            <div class="lg:w-3/12 w-10/12 mx-auto p-2 rounded-2xl 
             border-[1px]  border-gray-800 bg-[#212124] top-4 sticky transition-all duration-300" id="navBar">
                 <ul class="w-full flex justify-around">
                     <li class="font-mono text-white tracking-wide ">
-                        <button class="goAbout">About</button>
+                        <button class="goAbout cursor-pointer">About</button>
                     </li>
                     <li class="font-mono text-white tracking-wide ">
                         <a href="#!">Articles</a>
@@ -32,18 +35,23 @@
             <!-- Header Desktop -->
             <div class="w-10/12 mx-auto flex flex-col mt-24" id="AboutSection">
                 <!-- Name and Job -->
-                <p class="text-4xl font-mono text-white tracking-wide font-semibold">Taha Majlesi Pour / Front End Developer
+                <p class="text-4xl font-mono text-white tracking-wide font-semibold">Taha Majlesi Pour <span
+                        class="hidden lg:inline-block">/</span> Front End Developer
                 </p>
                 <!-- Introduction -->
-                <p class="w-9/12 font-mono text-gray-300 tracking-wide font mt-3">Experienced developer located in Tehran, Iran with over 3+ years of experience. Passionate about building web apps and websites.
+                <p class="lg:w-9/12 w-full font-mono text-gray-300 tracking-wide font mt-3">Experienced developer
+                    located in Tehran, Iran with over 3+ years of experience. Passionate about building web apps and
+                    websites.
                 </p>
                 <!-- Social Media -->
-                <ul class="w-2/12 flex mt-3 text-2xl gap-x-6 text-gray-300">
+                <ul class="lg:w-2/12 w-full flex mt-3 lg:text-2xl text-3xl lg:gap-x-6 gap-x-7 text-gray-300">
                     <li>
-                        <a href="#!"><i class="fa-brands fa-github"></i></a>
+                        <a href="#!"><i class="fa-brands fa-github"></i>
+                        </a>
                     </li>
                     <li>
-                        <a href="#!"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#!"><i class="fa-brands fa-instagram"></i>
+                        </a>
                     </li>
                     <li>
                         <a href="#!"><i class="fa-brands fa-linkedin"></i></a>
@@ -53,30 +61,42 @@
             <!-- Badges Desktop -->
             <div class="mt-24 w-10/12 mx-auto flex flex-col font-mono">
                 <p class=" text-3xl tracking-wide text-white font-semibold">My Skills</p>
-                <ul class="w-6/12 p-3 flex flex-wrap gap-4 mt-3">
-                    <li class="bg-[#212124] border-[0.5px] border-gray-800 rounded-lg  text-white p-2 tracking-wide cursor-pointer hover:bg-white hover:text-black transition-colors ">
+                <ul class="lg:w-6/12 w-full p-3 flex flex-wrap gap-4 mt-3">
+                    <li
+                        class="bg-[#212124] border-[0.5px] border-gray-800 rounded-lg  text-white p-2 tracking-wide cursor-pointer hover:bg-white hover:text-black transition-colors ">
                         Html</li>
-                    <li class="bg-[#212124] border-[0.5px] border-gray-800 rounded-lg  text-white p-2 tracking-wide cursor-pointer hover:bg-white hover:text-black transition-colors ">
+                    <li
+                        class="bg-[#212124] border-[0.5px] border-gray-800 rounded-lg  text-white p-2 tracking-wide cursor-pointer hover:bg-white hover:text-black transition-colors ">
                         Css</li>
-                    <li class="bg-[#212124] border-[0.5px] border-gray-800 rounded-lg  text-white p-2 tracking-wide cursor-pointer hover:bg-white hover:text-black transition-colors ">
+                    <li
+                        class="bg-[#212124] border-[0.5px] border-gray-800 rounded-lg  text-white p-2 tracking-wide cursor-pointer hover:bg-white hover:text-black transition-colors ">
                         Sass</li>
-                    <li class="bg-[#212124] border-[0.5px] border-gray-800 rounded-lg  text-white p-2 tracking-wide cursor-pointer hover:bg-white hover:text-black transition-colors ">
+                    <li
+                        class="bg-[#212124] border-[0.5px] border-gray-800 rounded-lg  text-white p-2 tracking-wide cursor-pointer hover:bg-white hover:text-black transition-colors ">
                         BootStrap</li>
-                    <li class="bg-[#212124] border-[0.5px] border-gray-800 rounded-lg  text-white p-2 tracking-wide cursor-pointer hover:bg-white hover:text-black transition-colors ">
+                    <li
+                        class="bg-[#212124] border-[0.5px] border-gray-800 rounded-lg  text-white p-2 tracking-wide cursor-pointer hover:bg-white hover:text-black transition-colors ">
                         tailwind</li>
-                    <li class="bg-[#212124] border-[0.5px] border-gray-800 rounded-lg  text-white p-2 tracking-wide cursor-pointer hover:bg-white hover:text-black transition-colors ">
+                    <li
+                        class="bg-[#212124] border-[0.5px] border-gray-800 rounded-lg  text-white p-2 tracking-wide cursor-pointer hover:bg-white hover:text-black transition-colors ">
                         JavaScript</li>
-                    <li class="bg-[#212124] border-[0.5px] border-gray-800 rounded-lg  text-white p-2 tracking-wide cursor-pointer hover:bg-white hover:text-black transition-colors ">
+                    <li
+                        class="bg-[#212124] border-[0.5px] border-gray-800 rounded-lg  text-white p-2 tracking-wide cursor-pointer hover:bg-white hover:text-black transition-colors ">
                         Jquery</li>
-                    <li class="bg-[#212124] border-[0.5px] border-gray-800 rounded-lg  text-white p-2 tracking-wide cursor-pointer hover:bg-white hover:text-black transition-colors ">
+                    <li
+                        class="bg-[#212124] border-[0.5px] border-gray-800 rounded-lg  text-white p-2 tracking-wide cursor-pointer hover:bg-white hover:text-black transition-colors ">
                         React</li>
-                    <li class="bg-[#212124] border-[0.5px] border-gray-800 rounded-lg  text-white p-2 tracking-wide cursor-pointer hover:bg-white hover:text-black transition-colors ">
+                    <li
+                        class="bg-[#212124] border-[0.5px] border-gray-800 rounded-lg  text-white p-2 tracking-wide cursor-pointer hover:bg-white hover:text-black transition-colors ">
                         Git</li>
-                    <li class="bg-[#212124] border-[0.5px] border-gray-800 rounded-lg  text-white p-2 tracking-wide cursor-pointer hover:bg-white hover:text-black transition-colors ">
+                    <li
+                        class="bg-[#212124] border-[0.5px] border-gray-800 rounded-lg  text-white p-2 tracking-wide cursor-pointer hover:bg-white hover:text-black transition-colors ">
                         Github</li>
-                    <li class="bg-[#212124] border-[0.5px] border-gray-800 rounded-lg  text-white p-2 tracking-wide cursor-pointer hover:bg-white hover:text-black transition-colors ">
+                    <li
+                        class="bg-[#212124] border-[0.5px] border-gray-800 rounded-lg  text-white p-2 tracking-wide cursor-pointer hover:bg-white hover:text-black transition-colors ">
                         Vscode</li>
-                    <li class="bg-[#212124] border-[0.5px] border-gray-800 rounded-lg  text-white p-2 tracking-wide cursor-pointer hover:bg-white hover:text-black transition-colors ">
+                    <li
+                        class="bg-[#212124] border-[0.5px] border-gray-800 rounded-lg  text-white p-2 tracking-wide cursor-pointer hover:bg-white hover:text-black transition-colors ">
                         Responsive Design
                     </li>
                 </ul>
@@ -84,11 +104,17 @@
             <!-- Contact Desktop -->
             <div class="mt-24 w-10/12 mx-auto flex flex-col font-mono">
                 <p class=" text-3xl tracking-wide text-white font-semibold"> Let's Connect!</p>
-                <p class="w-7/12 font-mono text-gray-300 tracking-wide font mt-3">I'm a <span class="font-semibold text-white">Frontend Focused Web Developer</span> building and managing the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the
-                    <span class="font-semibold text-white">Projects</span> section. I'm open to <span class="font-semibold text-white">Job</span> opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills
+                <p class="lg:w-7/12 w-full font-mono text-gray-300 tracking-wide font mt-3">I'm a <span
+                        class="font-semibold text-white">Frontend Focused Web Developer</span> building and managing the
+                    Front-end of Websites and Web Applications that leads to the success of the overall product. Check
+                    out some of my work in the
+                    <span class="font-semibold text-white">Projects</span> section. I'm open to <span
+                        class="font-semibold text-white">Job</span> opportunities where I can contribute, learn and
+                    grow. If you have a good opportunity that matches my skills
                     and experience then don't hesitate to <span class="font-semibold text-white">contact</span> me.
                 </p>
-                <button class="w-2/12 text-white mt-5 text-2xl border-[0.5px] border-gray-800 rounded-lg p-2 tracking-wide cursor-pointer hover:bg-white hover:text-black transition-colors bg-[#212124]">Contact</button>
+                <button
+                    class="lg:w-2/12 w-full text-white mt-5 text-2xl border-[0.5px] border-gray-800 rounded-lg p-2 tracking-wide cursor-pointer hover:bg-white hover:text-black transition-colors bg-[#212124]">Contact</button>
             </div>
             <!-- Latest from blog -->
             <div class="mt-24 w-10/12 mx-auto flex flex-col font-mono">
@@ -100,22 +126,25 @@
             <div class="mt-24 w-10/12 mx-auto flex flex-col font-mono">
                 <p class=" text-3xl tracking-wide text-white font-semibold">
                     My last Projects</p>
-                <div id="lastProjects" class="w-full flex justify-around mt-5"></div>
+                <div id="lastProjects" class="w-full flex lg:justify-around mt-5 lg:flex-row flex-col"></div>
             </div>
             <!-- Footer -->
-            <div class="w-full border-t-[1px] border-gray-800 mt-24 flex font-mono p-8 justify-around">
-                <ul class="w-3/12 flex justify-around">
+            <div
+                class="w-full border-t-[1px] border-gray-800 mt-24 flex font-mono p-6 lg:p-8 justify-around lg:flex-row flex-col">
+                <ul class="lg:w-3/12 w-10/12 mx-auto lg:m-0 flex justify-around">
                     <li class="text-white">
-                        <button class="goAbout" ">About</button>
+                        <button class="goAbout cursor-pointer">About</button>
                     </li>
                     <li class=" text-white ">
-                            <a href=" #! ">Articles</a>
+                        <a href=" #! ">Articles</a>
                     </li>
                     <li class=" text-white ">
                         <a href=" #! ">Projects</a>
                     </li>
                 </ul>
-                <p class=" text-gray-300 ">&copy; 2025 Taha Majlesi Pour. A few rights reserved.</p>
+                <p class=" text-gray-300 mt-4 lg:m-0 text-center lg:text-left">&copy; 2025 Taha Majlesi Pour. A few
+                    rights reserved.
+                </p>
             </div>
 
         </div>
