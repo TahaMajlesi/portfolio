@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="w-full bg-black flex justify-center">
+        <div class="bg-[#18181b] lg:w-8/12 w-full flex lg:border-x-[0.5px] lg:border-gray-800 flex-col">
+            <!-- NavBar Desktop -->
+            <div class="lg:w-4/12 w-10/12 mx-auto p-2 rounded-2xl 
+        border-[1px]  border-gray-800 bg-[#212124] top-4 sticky transition-all duration-300" id="navBar">
+                <ul class="w-full flex justify-around">
+                    <li class="font-mono text-white tracking-wide ">
+                        <a href="../index.html">About</a>
+                    </li>
+                    <li class="font-mono text-white tracking-wide ">
+                        <a href="#!">Articles</a>
+                    </li>
+                    <li class="font-mono text-white tracking-wide ">
+                        <button class="goProjects cursor-pointer">Projects</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="mt-24 w-10/12 mx-auto flex flex-col font-mono">
+                <p class=" text-3xl tracking-wide text-white font-semibold">
+                    Why have one project, when many projects do trick?</p>
+                <p class="lg:w-7/12 w-full font-mono text-gray-300 tracking-wide font mt-3">Here, you can check out some
+                    of my favorite creations. Take a look around and let me know what you think!
+                </p>
+                <div id="allProjects" class="w-full flex lg:justify-around mt-5 lg:flex-row flex-col"></div>
+            </div>
+
+            <!-- Footer -->
+            <div
+                class="w-full border-t-[1px] border-gray-800 mt-24 flex font-mono p-6 lg:p-8 justify-around lg:flex-row flex-col">
+                <ul class="lg:w-3/12 w-10/12 mx-auto lg:m-0 flex justify-around">
+                    <li class="text-white">
+                        <a href="../index.html">About</a>
+                    </li>
+                    <li class=" text-white ">
+                        <a href=" #! ">Articles</a>
+                    </li>
+                    <li class=" text-white ">
+                        <button class="goProjects cursor-pointer">Projects</button>
+                    </li>
+                </ul>
+                <p class=" text-gray-300 mt-4 lg:m-0 text-center lg:text-left">&copy; 2025 Taha Majlesi Pour. A few
+                    rights reserved.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="../Js/Nav.js"></script>
+    <script src="../Js/AllProjects.js"></script>
+</body>
+
+</html>

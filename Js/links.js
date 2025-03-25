@@ -1,5 +1,5 @@
-$(".goAbout").click(function() {
-    if ($(window).scrollTop() > 100) {
-        $("html, body").animate({ scrollTop: 0 }, "slow");
-    }
+$(".goAbout , .goProjects").click(function () {
+  if ($(window).scrollTop() > 100) {
+    $("html, body").animate({ scrollTop: 0 }, "slow");
+  }
 });
