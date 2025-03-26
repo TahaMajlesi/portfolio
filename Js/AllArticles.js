@@ -1,4 +1,4 @@
-fetch("../Json/Articles.json")
+fetch("../src/Json/Articles.json")
   .then((res) => res.json())
   .then((data) => {
     data.reverse();
