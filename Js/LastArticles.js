@@ -1,5 +1,10 @@
 fetch("../Json/Articles.json")
-  .then((res) => res.json())
+  .then((response) => {
+    if (!response.ok) {
+      throw new Error("Network response was not ok");
+    }
+    return response.json();
+  })
   .then((data) => {
     data.reverse();
     for (let i = 0; i < 3; i++) {
@@ -11,4 +16,7 @@ fetch("../Json/Articles.json")
             <a href="${data[i].fileUrl}" class="text-blue-600 font-semibold my-1" download="${data[i].title}">Read article ></a>
             </div>`;
     }
+  })
+  .catch((error) => {
+    console.error("There has been a problem with your fetch operation:", error);
   });
